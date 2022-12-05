@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: BoundedContext947
+  labels:
+    app: BoundedContext947
+spec:
+  ports:
+    - port: 8080
+      targetPort: 8080
+  selector:
+    app: BoundedContext947
