@@ -70,6 +70,7 @@
             me.newValue = {
                 'productId': '',
                 'qty': 0,
+                'address': '',
             }
         },
         methods:{

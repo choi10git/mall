@@ -36,6 +36,12 @@ public class Order  {
     
     
     private Double qty;
+    
+    
+    
+    
+    
+    private String address;
 
     @PostPersist
     public void onPostPersist(){
